@@ -1,0 +1,37 @@
+/* pages/user/user.wxss */
+/* 个人信息区域 */
+.profile{
+  background-color:#78a355;
+  height:400rpx;
+  text-align:center;
+  position:relative;
+  width:100%;
+}
+/* 微信头像 */
+.profile_img{
+  width:200rpx;
+  height:200rpx;
+  display:block;
+  overflow: hidden;
+  border-radius:50%;  /*圆角*/
+  position: absolute; /*绝对定位*/
+  left:50%;           /*居中*/
+  transform:translate(-50%,80rpx);  /*居中*/
+}
+/* 微信名称 */
+.profile_name{
+  font-size:36rpx;
+  color:#fff;
+  position:absolute;  /*绝对定位*/
+  left:50%;           /*居中*/
+  transform:translate(-50%,290rpx); /*居中*/
+}
+/* 退出登录按钮 */
+.outLogin{
+  background-color:#78a355;
+  margin:20rpx;
+  color:#fff;
+}
+.outLogin:active{
+  opacity: 0.9;
+}

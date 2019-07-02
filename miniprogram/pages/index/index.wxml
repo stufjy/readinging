@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<!-- 一本书的区域 -->
+<view class='book' bindtap="reading" wx:for="(item,index) of 5" wx:key="index">
+  <!-- 小说图片 -->
+  <image src='../../images/xianni.jpg' class='book_img'></image>
+  <!-- 小说介绍 -->
+  <view class='book_info'>
+    <!-- 小说名字 -->
+    <view class='book_name'>仙逆</view>
+    <!-- 更新 -->
+    <view class='book_new' >最新：第2088章 蓦然回首(结局)</view>
+    <!-- 阅读至 -->
+    <view class='book_old'>阅读至：第2088章 蓦然回首(结局)</view>
+  </view>
+</view>

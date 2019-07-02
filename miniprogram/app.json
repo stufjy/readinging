@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/reading/reading"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7fb80e",
+    "navigationBarTitleText": "Readinging",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar" : {
+    "color" : "#5c7a29",
+    "selectedColor" : "#7fb80e",
+    "list" : [
+      {
+        "pagePath": "pages/index/index",
+        "text": "书架",
+        "iconPath" : "./images/shujia.png",
+        "selectedIconPath" : "./images/shujia-.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "书城",
+        "iconPath": "./images/shucheng.png",
+        "selectedIconPath": "./images/shucheng-.png"
+      },
+      {
+        "pagePath" : "pages/user/user",
+        "text" : "我的",
+        "iconPath": "./images/wo.png",
+        "selectedIconPath": "./images/wo-.png"
+      }
+    ]
+  }
+}

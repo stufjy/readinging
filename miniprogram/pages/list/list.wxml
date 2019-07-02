@@ -1,0 +1,3 @@
+<!--pages/list/list.wxml-->
+<text>书城</text>
+<button bindtap='asd'>看</button>

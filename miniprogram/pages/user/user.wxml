@@ -1,0 +1,14 @@
+<!--pages/user/user.wxml-->
+<!-- 个人信息区域 -->
+<view class='profile'>
+  <!-- 微信头像 -->
+  <view class='profile_img'>
+    <open-data type='userAvatarUrl'></open-data>
+  </view>
+  <!-- 微信名 -->
+  <view>
+    <open-data type='userNickName' class='profile_name'></open-data>
+  </view>
+</view>
+<!-- <button open-type='getUserInfo' bindgetuserinfo='onGotUserInfo'>获取用户信息</button> -->
+<button class='outLogin'>退出登录</button>
