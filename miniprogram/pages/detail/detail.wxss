@@ -1,1 +1,73 @@
 /* pages/detail/detail.wxss */
+/* 背景图 */
+.detail-container{
+  height: 400rpx;
+  filter: blur(40rpx);
+  opacity: 0.9;
+}
+/* 底层遮罩 */
+.detail-mask{
+  position: absolute;
+  width: 100%;
+  height: 400rpx;
+  background-color: #333;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* 小说图片 */
+.detail-img{
+  position: absolute;
+  top: 5%;
+  left: 28%;
+  padding: 20rpx;
+  width: 280rpx;
+  height: 30%;
+  margin-right: 24rpx;
+}
+/* 小说介绍 */
+.detail-info{
+  margin: 80rpx 20rpx 20rpx 20rpx;
+  width: 100%;
+  /* height: 400rpx; */
+  font-family: '华文新魏'
+}
+/* 标题 */
+.detail-nm{
+  font-size: 76rpx;
+  font-weight: bold;
+  width: 70%;
+  overflow: hidden;
+}
+/* 次标题 */
+.detail-subtitle{
+  font-size: 40rpx;
+  margin-left: 30rpx;
+  color: #555;
+  font-weight: normal;
+}
+/* 打分 */
+.detail-sc{
+  color: #fc0;
+  font-size: 60rpx;
+  font-weight: 700;
+  position:absolute;
+  top: 42%;
+  right: 4%;
+}
+/* 作者 */
+.detail-anthor{
+  margin: 20rpx 0 ;
+}
+/* 标签 */
+.detail-tag{
+  margin-right: 14rpx;
+  line-height: 54rpx;
+}
+/* 小说描述 */
+.desc{
+  padding: 20rpx 36rpx 20rpx 0;
+  font-size:36rpx;
+  color: #555;
+  text-indent: 1.5em; /*首行缩进*/
+}
