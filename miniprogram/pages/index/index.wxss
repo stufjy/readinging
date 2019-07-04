@@ -2,7 +2,7 @@
 /* 一本书的区域 */
 .book{
   display: flex;
-  padding: 10px;  
+  padding: 10px; 
   border-bottom:1px solid #ccc; /*下划线*/
 }
 /* 小说图片 */
@@ -13,24 +13,53 @@
 }
 /* 小说介绍 */
 .book_info{
-  flex:1; /*将右侧分配给 info 介绍文字*/
+  /* flex:1; 将右侧分配给 info 介绍文字 */
   font-size:28rpx;
   line-height:1.6;
-  color:#666;
+  color:#666; 
+  width: 60%;
 }
 /* 小说名字 */
 .book_name{
   color:#000;
+  height: 52rpx;
   font-size:40rpx;   /*字体大小*/
   font-weight:bolder; /*加粗*/
-  margin-bottom: 20rpx;
+  margin-bottom: 10rpx;
   margin-top: 10rpx;
+  width: 430rpx;    /* 定义宽度 */
+  max-width: 430rpx;
+  overflow: hidden;     /* 溢出部分隐藏 */
+  text-overflow: ellipsis;  /* 隐藏部分替换为... */
+  white-space: nowrap;    /* 文本中不换行 */
 }
-/* 更新 */
-.book_new{
-
+/* 删除按钮 */
+.book_btn{
+  /* right: -10%; */
+  flex: 1;
+  position: relative;
+  top: 70rpx;
+  right: -10rpx;
+  z-index: 10;
+}
+.van-button--normal{
+  padding:0 25rpx !important;
+}
+/* 小说作者 */
+.book-author{
+  margin: 20rpx 0;
+  width: 430rpx;    /* 定义宽度 */
+  max-width: 430rpx;
+  overflow: hidden;     /* 溢出部分隐藏 */
+  text-overflow: ellipsis;  /* 隐藏部分替换为... */
+  white-space: nowrap;    /* 文本中不换行 */
+  font-family: "华文新魏";
 }
 /* 阅读至 */
 .book_old{
-
+  width: 430rpx;    /* 定义宽度 */
+  max-width: 430rpx;
+  overflow: hidden;     /* 溢出部分隐藏 */
+  text-overflow: ellipsis;  /* 隐藏部分替换为... */
+  white-space: nowrap;    /* 文本中不换行 */
 }

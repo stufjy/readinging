@@ -1,1 +1,84 @@
 /* pages/list/list.wxss */
+.search-container{
+  display: flex;
+  margin-top: 30rpx;
+  margin-left: 9%;
+}
+/* 搜索文本框 */
+.van-cell{
+  height: 70rpx;
+  width: 500rpx !important;
+  padding:8rpx 20rpx !important;
+  border-top-left-radius: 15rpx;
+  border-bottom-left-radius: 15rpx;
+  border:1rpx solid #5c7a29;
+  font-size:32rpx;
+  /* text-align: center !important; */
+}
+/* 搜索按钮 */
+.searchBook{
+  width: 70rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  background-color: #5c7a29;
+  border-top-right-radius: 15rpx;
+  border-bottom-right-radius: 15rpx;
+}
+/* 一本书的区域 */
+.book{
+  display: flex;
+  padding: 10px;  
+  border-bottom:1px solid #ccc; /*下划线*/
+}
+/* 小说图片 */
+.book_img{
+  width:150rpx;
+  height:200rpx;
+  margin-right:20rpx; /*与右侧文字的距离*/
+}
+/* 小说介绍 */
+.book_info{
+  flex:1; /*将右侧分配给 info 介绍文字*/
+  height: 200rpx;
+  font-size:28rpx;
+  line-height:1.6;
+}
+/* 小说名字 */
+.book_name{
+  color:#000;
+  font-size:40rpx;   /*字体大小*/
+  font-weight:bolder; /*加粗*/
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+  width: 540rpx;    /* 定义宽度 */
+  max-width: 540rpx;
+  overflow: hidden;     /* 溢出部分隐藏 */
+  text-overflow: ellipsis;  /* 隐藏部分替换为... */
+  white-space: nowrap;    /* 文本中不换行 */
+}
+/* 小说次标题 */
+.book_subtitle{
+  width: 540rpx;    /* 定义宽度 */
+  max-width: 540rpx;
+  overflow: hidden;     /* 溢出部分隐藏 */
+  text-overflow: ellipsis;  /* 隐藏部分替换为... */
+  white-space: nowrap;    /* 文本中不换行 */
+}
+/* 作者 */
+.book_author{
+  width: 540rpx;    /* 定义宽度 */
+  max-width: 540rpx;
+  overflow: hidden;     /* 溢出部分隐藏 */
+  text-overflow: ellipsis;  /* 隐藏部分替换为... */
+  white-space: nowrap;    /* 文本中不换行 */
+  font-family: "华文新魏";
+  color:#666;
+}
+/* 透明按钮 */
+.myBTN{
+  position: absolute;
+  width: 95%;
+  height: 18%;
+  opacity: 0.1;
+}

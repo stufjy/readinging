@@ -11,4 +11,4 @@
   </view>
 </view>
 <!-- <button open-type='getUserInfo' bindgetuserinfo='onGotUserInfo'>获取用户信息</button> -->
-<button class='outLogin'>退出登录</button>
+<button class='outLogin' bindtap='outLogin'>退出登录</button>

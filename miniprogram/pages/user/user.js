@@ -7,6 +7,14 @@ Page({
   data: {
 
   },
+// 点击按钮弹出提示框
+  outLogin: function(){
+    wx.showToast({
+      title: '暂时还不能退出哦',
+      image: '../../images/smile.png',
+      duration: 2000
+    })
+  },
   // onGotUserInfo(e) {
   //   console.log(e);
   // },

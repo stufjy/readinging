@@ -1,2 +1,9 @@
 <!--pages/reading/reading.wxml-->
-<text>小说内容</text>
+<view class='read-title'>小说内容页面</view>
+<view class='read'>
+  <view class='reading' style="font-size:{{size}}rpx">由于API接口不完整,暂时无法展示此页面</view>
+</view>
+<view class='myBtn'>
+  <button bindtap='sizedown' type='primary'>A<sup>-</sup></button>
+  <button bindtap='sizeup' type='primary'>A<sup>+</sup></button>
+</view>

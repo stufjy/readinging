@@ -5,9 +5,39 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    size: 40
   },
 
+// 缩小字体
+  sizedown: function(){
+    // console.log('--')
+    if( this.data.size > 30){
+      this.setData({
+        size: this.data.size -= 5
+      })
+      console.log( this.data.size )
+    }else{
+      this.setData({
+        size: 30
+      })
+      console.log( this.data.size )
+    }
+  }, 
+  // 增大字体
+  sizeup: function(){
+    // console.log('++')
+    if (this.data.size < 60) {
+      this.setData({
+        size: this.data.size += 5
+      })
+      console.log(this.data.size)
+    } else {
+      this.setData({
+        size: 60
+      })
+      console.log(this.data.size)
+    }
+  }, 
   /**
    * 生命周期函数--监听页面加载
    */
